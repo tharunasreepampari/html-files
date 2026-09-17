@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    *{ box-sizing: border-box;
+    } 
+    header{ 
+        display: flex;
+        /* background-color: blue;
+        color: rgb(234, 240, 245); */
+        minwidth: 40px;;
+        min-height: 80px; 
+        border: 1px solid black;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+ a{    
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    }
+    .container{ 
+        display: flex;
+        border:2px solid black;
+    } 
+    .card{ 
+        display:flex;
+        flex-wrap: wrap;
+        border: 2px solid black;
+        border-radius: 2px;
+    }
+    aside { 
+        width: 25%;
+        height: 100vh; 
+        background-color: antiquewhite;
+    } 
+    main { 
+        display:flex;
+        border: 2px solid black;
+        width: 50%;
+        height: 100vh;
+    }  
+    .card-image img { 
+      object-fit: cover;
+
+    }
+    footer{ 
+        background-color:lightblue;
+        color: black; 
+        border: 1px;
+    }
+
+
+    </style>
+</head>
+<body>
+    <header> 
+        <h1> E shope</h1> 
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">about</a>
+            <a href="#">whishlist</a>
+        </nav>
+    </header> 
+    <div class="card container">
+        <aside> 
+            <h1> Category</h1>
+            <p>Women's Fashion </p>
+            <p>Men's Fashion</p>
+            <p> shoes</p>
+            <p> Home & kitchen</p>
+            <P>Grocery & Gourmet</P>
+            <p>Baby Products</p>
+        </aside>
+        <main> 
+            <div class="card">
+            <img src="C:\Users\Nirmaan\Desktop\tharuna 1\1724418702secrets-of-rolex-watches.jpg" alt="rolex">
+            <h1> Rolex</h1>
+             <p> 250000</p>
+             <button>Add to card</button>   
+             </div>
+            <div class="card">
+            <img src="C:\Users\Nirmaan\Desktop\tharuna 1\1724418702secrets-of-rolex-watches.jpg" alt="rolex">
+            <h1> Rolex</h1>
+             <p> 40000</p>
+             <button>Add to card</button>  
+            </div> 
+             <div class="card">
+            <img src="C:\Users\Nirmaan\Desktop\tharuna 1\1724418702secrets-of-rolex-watches.jpg" alt="rolex">
+            <h1> Rolex</h1>
+             <p> 50000</p>
+             <button>Add to card</button>   
+             </div>
+        </main>
+        <aside>
+            <p>Raki discount 10% </p>
+        </aside>
+    </div>
+        <footer>
+            <p>contact us </p>
+        </footer> 
+</body>
+</html>
